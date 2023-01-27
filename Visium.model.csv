@@ -1,1 +1,22 @@
 Attribute,Description,Valid Values,DependsOn,Properties,Required,Parent,DependsOn Component,Source,Validation Rules
+Filename,"The name of the data file",,,,True,,,,
+Data File ID,"A unique identidier for the data file",,,,True,,,,
+Parent Biospecimen ID,"A unique identifier for the biospecimen analysed",,,,True,,,,
+Sequencing Instrument,"The instrument used for sequncing",,,,,True,,,,
+Sequencing Depth,"The depth of sequencing (reads per spot)",,,,True,,,,int
+Sequencing Configuration,"The sequencing configuration",,,,,True,,,,
+Dual-Index Set,"The Dual-Index Set",,,,,True,,,,
+Slide ID,"The ID of the Visium slide used",,,,,True,,,,
+Slide Area,"The area of the slide used","A1,B1,C1,D1",,,,,True,,,,
+Spots detected under tissue,"The number of spots detected under tissue",,,,,,True,,,,int
+Median genes per spot,"The median number of genes per spot",,,,,,True,,,,int
+Median UMI counts per spot,"The median UMI counts per spot",,,,,,True,,,,int
+Microscope,"THe microscope used for image acquisition",,,,True,,,,
+Objective,"The objective used for image acquisition",,,,True,,,,
+Light Source,"The light source used for image acquisition",,,,True,,,,
+Camera,"The light source used for image acquisition",,,,True,,,,
+Parent Biospecimen ID,"A unique identifier for the biospecimen analysed",,,,True,,,,
+Antibodies,"Antibodies used for immunofluorescence (IF) staining",,,,False,,,,
+Blocking buffer,"Blocking Buffer  used for immunofluorescence (IF) staining,,,,,False,,,,
+
+
