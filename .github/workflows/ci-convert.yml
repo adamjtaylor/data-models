@@ -6,7 +6,9 @@ name: CI
 on:
   pull_request:
     branches: main
-    paths: 'HTAN.model.csv'
+    paths: 
+      - 'HTAN.model.csv'
+      - 'Visium.model.csv'
 
 jobs:
   CI:
